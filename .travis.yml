@@ -1,0 +1,15 @@
+language: php
+
+php:
+  - 7.0
+  - 7.1
+  - 7.2
+  - 7.3
+
+# command to install dependencies
+before_script:
+  - composer install
+
+# command to run tests
+script:
+  - composer test

@@ -1,6 +1,6 @@
 {
-    "name": "ggomuk/GBench",
-    "description": "Benchmark Component",
+    "name": "ggomuk/g-bench",
+    "description": "PHP Benchmark Component",
     "keywords": ["bechmark", "library", "bench"],
     "type": "library",
     "license": "MIT",
@@ -11,19 +11,25 @@
         }
     ],
     "require": {
-        "php": "^7.3.0",
+        "php": "7.*"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
     },
+    "suggest": {
+        "monolog/monolog": "You can use the handler to do logging."
+    },
     "autoload": {
         "psr-4": {
             "GBench\\": "src/GBench/"
-        },
+        }
     },
     "autoload-dev": {
         "psr-4": {
             "GBench\\Tests\\": "tests/"
         }
     },
+    "scripts": {
+        "test": "phpunit"
+    }
 }
