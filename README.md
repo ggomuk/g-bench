@@ -1,4 +1,4 @@
-# G-Bench
+# G-Bench [![Build Status](https://travis-ci.com/ggomuk/g-bench.svg?branch=master)](https://travis-ci.org/ggomuk/g-bench)
 
 
 G-Bench is a nice and  **light** component for `php benchmarking`.
