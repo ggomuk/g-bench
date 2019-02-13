@@ -1,0 +1,29 @@
+{
+    "name": "ggomuk/GBench",
+    "description": "Benchmark Component",
+    "keywords": ["bechmark", "library", "bench"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ggomuk",
+            "email": "mayjsm1206@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3.0",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GBench\\": "src/GBench/"
+        },
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GBench\\Tests\\": "tests/"
+        }
+    },
+}
